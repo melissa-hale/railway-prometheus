@@ -20,4 +20,4 @@ scrape_configs:
   
   - job_name: 'mongodb'
     static_configs:
-      - targets: ['mongo-exporter-production.up.railway.app:80']
+      - targets: ['mongo-exporter-production.up.railway.app:9216']
